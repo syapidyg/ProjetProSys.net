@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterChefInfo", "MasterChefInfo.csproj", "{A5422E10-F631-4384-AC13-8805850B33F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5422E10-F631-4384-AC13-8805850B33F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5422E10-F631-4384-AC13-8805850B33F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5422E10-F631-4384-AC13-8805850B33F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5422E10-F631-4384-AC13-8805850B33F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8DD3125-6380-47B8-BAFC-0AA879AC41AD}
+	EndGlobalSection
+EndGlobal

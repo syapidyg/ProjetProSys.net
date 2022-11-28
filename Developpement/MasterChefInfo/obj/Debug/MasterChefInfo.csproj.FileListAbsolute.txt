@@ -1,0 +1,9 @@
+C:\Users\Syapi_DYG\OneDrive\Documents\Prosit X3\Programmation concurrente\Projet Programmation concurrente\Projet git\Developpement\MasterChefInfo\bin\Debug\MasterChefInfo.exe.config
+C:\Users\Syapi_DYG\OneDrive\Documents\Prosit X3\Programmation concurrente\Projet Programmation concurrente\Projet git\Developpement\MasterChefInfo\bin\Debug\MasterChefInfo.exe
+C:\Users\Syapi_DYG\OneDrive\Documents\Prosit X3\Programmation concurrente\Projet Programmation concurrente\Projet git\Developpement\MasterChefInfo\bin\Debug\MasterChefInfo.pdb
+C:\Users\Syapi_DYG\OneDrive\Documents\Prosit X3\Programmation concurrente\Projet Programmation concurrente\Projet git\Developpement\MasterChefInfo\obj\Debug\MasterChefInfo.csprojAssemblyReference.cache
+C:\Users\Syapi_DYG\OneDrive\Documents\Prosit X3\Programmation concurrente\Projet Programmation concurrente\Projet git\Developpement\MasterChefInfo\obj\Debug\MasterChefInfo.Properties.Resources.resources
+C:\Users\Syapi_DYG\OneDrive\Documents\Prosit X3\Programmation concurrente\Projet Programmation concurrente\Projet git\Developpement\MasterChefInfo\obj\Debug\MasterChefInfo.csproj.GenerateResource.cache
+C:\Users\Syapi_DYG\OneDrive\Documents\Prosit X3\Programmation concurrente\Projet Programmation concurrente\Projet git\Developpement\MasterChefInfo\obj\Debug\MasterChefInfo.csproj.CoreCompileInputs.cache
+C:\Users\Syapi_DYG\OneDrive\Documents\Prosit X3\Programmation concurrente\Projet Programmation concurrente\Projet git\Developpement\MasterChefInfo\obj\Debug\MasterChefInfo.exe
+C:\Users\Syapi_DYG\OneDrive\Documents\Prosit X3\Programmation concurrente\Projet Programmation concurrente\Projet git\Developpement\MasterChefInfo\obj\Debug\MasterChefInfo.pdb
