@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Drawing;
+using System.Linq;
+using System.Security.Policy;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace KitchenRoom1.model
+{
+    internal class KitchenClerk : KitchenEmployee
+    {
+        public KitchenClerk()
+        {
+            x = 50;
+            y = 80;
+            sprite = Image.FromFile("D:\\UCAC\\X3\\ProgrammationConcurrente\\Projet\\Ressource\\download.jpg");
+        }
+        public override void Start()
+        {
+            //while (true)
+            //{
+            //    int pastX = x;
+            //    int pastY = y;
+            //    MoveRight();
+            //    NotifyHasMoved(pastX, pastY, x, y);
+            //}
+        }
+    }
+}

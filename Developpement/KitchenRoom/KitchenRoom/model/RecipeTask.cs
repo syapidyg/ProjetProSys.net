@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace KitchenRoom.model
+{
+    internal class RecipeTask
+    {
+        public string name { get; set; }
+        public int duration { get; set; }
+        public (KitchenMaterial, int) material { get; set; }
+
+        public RecipeTask(string name, int duration, (KitchenMaterial, int) material)
+        {
+            this.name = name;
+            this.duration = duration;
+            this.material = material;
+        }
+    }
+}

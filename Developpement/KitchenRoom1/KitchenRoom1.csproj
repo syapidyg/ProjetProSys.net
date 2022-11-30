@@ -4,11 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5C3238EB-EDD3-4E43-93D0-162CFCBFAEA3}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
-    <RootNamespace>MasterChefInfo</RootNamespace>
-    <AssemblyName>MasterChefInfo</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <ProjectGuid>{FE8EE009-248F-4725-B975-19F98765ABFA}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>KitchenRoom1</RootNamespace>
+    <AssemblyName>KitchenRoom1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <LangVersion>9.0</LangVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -32,6 +33,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,23 +50,36 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="controller\DRController.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="contract\IObserver.cs" />
+    <Compile Include="controller\KitchenController.cs" />
+    <Compile Include="model\Chef.cs" />
+    <Compile Include="model\Entity.cs" />
+    <Compile Include="model\Ingredient.cs" />
+    <Compile Include="model\KitchenClerk.cs" />
+    <Compile Include="model\KitchenElement.cs" />
+    <Compile Include="model\KitchenEmployee.cs" />
+    <Compile Include="model\KitchenEmployeeFactory.cs" />
+    <Compile Include="model\KitchenMaterial.cs" />
+    <Compile Include="model\KitchenMaterialFactory.cs" />
+    <Compile Include="model\KitchenModel.cs" />
+    <Compile Include="model\KitchenRoom.cs" />
+    <Compile Include="model\Material.cs" />
+    <Compile Include="model\MobileKitchenElement.cs" />
+    <Compile Include="model\Order.cs" />
+    <Compile Include="model\PartChef.cs" />
+    <Compile Include="model\Recipe.cs" />
+    <Compile Include="model\RecipeTask.cs" />
+    <Compile Include="model\StaticKitchenElement.cs" />
+    <Compile Include="model\Washer.cs" />
+    <Compile Include="view\KitchenForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="view\KitchenForm.Designer.cs">
+      <DependentUpon>KitchenForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="model\Butler.cs" />
-    <Compile Include="model\HeadWaiter.cs" />
-    <Compile Include="model\RoomClerk.cs" />
-    <Compile Include="model\Waiter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="view\DRView.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
+    <Compile Include="view\KitchenView.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -72,6 +89,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="view\KitchenForm.resx">
+      <DependentUpon>KitchenForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

@@ -1,14 +1,13 @@
-﻿using System;
+﻿using KitchenRoom1.controller;
+using KitchenRoom1.model;
+using KitchenRoom1.view;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using KitchenRoom.controller;
-using KitchenRoom.model;
-using KitchenRoom.view;
 
-
-namespace KitchenRoom
+namespace KitchenRoom1
 {
     internal static class Program
     {
@@ -18,9 +17,10 @@ namespace KitchenRoom
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
-            ApplicationConfiguration.Initialize();
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new KitchenForm());
+            //Application.Initialize();
 
             KitchenModel model = new KitchenModel();
             KitchenView view = new KitchenView(model);

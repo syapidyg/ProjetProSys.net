@@ -1,17 +1,16 @@
-﻿using KitchenRoom.contract;
-using KitchenRoom.model;
-using KitchenRoom.view;
+﻿using KitchenRoom1.contract;
+using KitchenRoom1.model;
+using KitchenRoom1.view;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
-
-namespace KitchenRoom.controller
+namespace KitchenRoom1.controller
 {
-    
     internal class KitchenController
     {
         private static int TIME_SCALE = 1000;
@@ -67,7 +66,7 @@ namespace KitchenRoom.controller
             Thread chefThread = new(new ThreadStart(ChefTask));
             chefThread.Name = "Chef";
             chefThread.Start();
-            model.chef.AddObserver((IOobserver)view);
+            model.chef.AddObserver((IObserver)view);
 
             Thread distantWaiterThread = new(new ThreadStart(DistantWaiterTask));
             distantWaiterThread.Name = "Waiter";
@@ -211,6 +210,8 @@ namespace KitchenRoom.controller
                 materialWashQueueMut.ReleaseMutex();
                 materialWashQueueMre.Reset();
                 notifyMaterialWashMut.ReleaseMutex();
+
+
 
             }
         }
