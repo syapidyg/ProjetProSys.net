@@ -1,6 +1,14 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Developpement",
+    "\\Developpement\\KitchenRoom1",
+    "\\Developpement\\KitchenRoom1\\KitchenRoom1",
+    "\\Developpement\\KitchenRoom1\\KitchenRoom1\\assets\\employees",
+    "\\Developpement\\KitchenRoom1\\KitchenRoom1\\assets\\employees\\chef",
+    "\\Developpement\\KitchenRoom1\\KitchenRoom1\\model",
+    "\\Developpement\\KitchenRoom1\\KitchenRoomTests"
   ],
+  "SelectedNode": "\\Developpement\\KitchenRoom1\\KitchenRoomTests\\KitchenMobileElementTest.cs",
   "PreviewInSolutionExplorer": false
 }
