@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KitchenRoom1.model
 {
-    internal abstract class KitchenEmployee : MobileKitchenElement
+    public abstract class KitchenEmployee : MobileKitchenElement
     {
         public KitchenEmployee()
         {

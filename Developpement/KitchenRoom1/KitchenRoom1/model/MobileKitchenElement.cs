@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 
 namespace KitchenRoom1.model
 {
-    internal abstract class MobileKitchenElement : KitchenElement
+    public abstract class MobileKitchenElement : KitchenElement
     {
         public int x { get; set; }
         public int y { get; set; }
 
-        public int speed { get; set; }
+        public static int speed { get; set; }
 
         public MobileKitchenElement()
         {

@@ -7,15 +7,15 @@ using System.Threading.Tasks;
 
 namespace KitchenRoom1.model
 {
-    internal class PartChef : KitchenEmployee
+    public class PartChef : KitchenEmployee
     {
         public PartChef()
         {
-            SetSprite("moving-up", Image.FromFile("D:\\UCAC\\X3\\ProgrammationConcurrente\\Projet\\projet\\ProjetProSys.net\\Developpement\\KitchenRoom1\\KitchenRoom1\\assets\\employees\\part-chef\\moving-up.png"));
-            SetSprite("moving-down", Image.FromFile("D:\\UCAC\\X3\\ProgrammationConcurrente\\Projet\\projet\\ProjetProSys.net\\Developpement\\KitchenRoom1\\KitchenRoom1\\assets\\employees\\part-chef\\moving-down.png"));
-            SetSprite("moving-left", Image.FromFile("D:\\UCAC\\X3\\ProgrammationConcurrente\\Projet\\projet\\ProjetProSys.net\\Developpement\\KitchenRoom1\\KitchenRoom1\\assets\\employees\\part-chef\\moving-left.png"));
-            SetSprite("moving-right", Image.FromFile("D:\\UCAC\\X3\\ProgrammationConcurrente\\Projet\\projet\\ProjetProSys.net\\Developpement\\KitchenRoom1\\KitchenRoom1\\assets\\employees\\part-chef\\moving-right.png"));
-            SetSprite("working", Image.FromFile("D:\\UCAC\\X3\\ProgrammationConcurrente\\Projet\\projet\\ProjetProSys.net\\Developpement\\KitchenRoom1\\KitchenRoom1\\assets\\employees\\part-chef\\working.png"));
+            SetSprite("moving-up", Image.FromFile("D:\\UCAC\\X3\\Programmation Concurrente\\Projet\\projet\\ProjetProSys.net\\Developpement\\KitchenRoom1\\KitchenRoom1\\assets\\employees\\part-chef\\moving-up.png"));
+            SetSprite("moving-down", Image.FromFile("D:\\UCAC\\X3\\Programmation Concurrente\\Projet\\projet\\ProjetProSys.net\\Developpement\\KitchenRoom1\\KitchenRoom1\\assets\\employees\\part-chef\\moving-down.png"));
+            SetSprite("moving-left", Image.FromFile("D:\\UCAC\\X3\\Programmation Concurrente\\Projet\\projet\\ProjetProSys.net\\Developpement\\KitchenRoom1\\KitchenRoom1\\assets\\employees\\part-chef\\moving-left.png"));
+            SetSprite("moving-right", Image.FromFile("D:\\UCAC\\X3\\Programmation Concurrente\\Projet\\projet\\ProjetProSys.net\\Developpement\\KitchenRoom1\\KitchenRoom1\\assets\\employees\\part-chef\\moving-right.png"));
+            SetSprite("working", Image.FromFile("D:\\UCAC\\X3\\Programmation Concurrente\\Projet\\projet\\ProjetProSys.net\\Developpement\\KitchenRoom1\\KitchenRoom1\\assets\\employees\\part-chef\\working.png"));
 
             currentSprite = GetSprite("moving-up");
             

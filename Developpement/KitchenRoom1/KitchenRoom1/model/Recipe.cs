@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KitchenRoom1.model
 {
-    internal class Recipe
+    public class Recipe
     {
         public string name { get; set; }
         public Ingredient[] ingredients { get; set; }

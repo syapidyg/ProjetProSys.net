@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace KitchenRoom1.model
 {
-    internal class KitchenModel
+    public class KitchenModel
     {
-        private List<IObserver> observers;
+        public List<IObserver> observers;
 
         public KitchenRoom kitchenRoom { get; set; }
 
@@ -75,6 +75,7 @@ namespace KitchenRoom1.model
 
             };
             SetEmployeeConfig(1, 2, 2, 1);
+            SetMaterialConfig(1, 2, 2, 1,5) ;
 
 
         }
@@ -121,7 +122,15 @@ namespace KitchenRoom1.model
             }
         }
 
-        
+        public void SetMaterialConfig(int cookingFireNumber, int ovenNumber, int blenderNumber, int panNumber, int kitchenKnifeNumber)
+        {
+            cookingFire.quantity = cookingFireNumber;
+            oven.quantity = ovenNumber;
+            blender.quantity = blenderNumber;
+            pan.quantity = panNumber;
+            kitchenKnife.quantity = kitchenKnifeNumber;
+
+        }
         public void AddObserver(IObserver observer)
         {
             observers.Add(observer);
@@ -135,6 +144,45 @@ namespace KitchenRoom1.model
             }
         }
 
+        public void NotifyMaterialChange(String name)
+        {
+            foreach (IObserver observer in observers)
+            {
+                observer.UpdateMaterialChange(name);
+            }
+        }
+
+        public void NotifyTaskEmployeeChange(String name)
+        {
+            foreach (IObserver observer in observers)
+            {
+                //observer.UpdateMaterialChange(name);
+            }
+        }
+
+        public void NotifyFreeEmployee(String name)
+        {
+            foreach (IObserver observer in observers)
+            {
+                observer.UpdateFreeEmployee(name);
+            }
+        }
+
+        public void NotifyBusyEmloyee(String name)
+        {
+            foreach (IObserver observer in observers)
+            {
+                observer.UpdateBusyEmployee(name);
+            }
+        }
+
+        public void NotifyEventLog(String eventName)
+        {
+            foreach (IObserver observer in observers)
+            {
+                observer.UpdateEventLog(eventName);
+            }
+        }
     }
 
 

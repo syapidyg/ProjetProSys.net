@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace KitchenRoom1.controller
 {
-    internal class KitchenController
+    public class KitchenController
     {
         private static int TIME_SCALE = 1000;
 

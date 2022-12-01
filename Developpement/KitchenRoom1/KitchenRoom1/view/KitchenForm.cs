@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace KitchenRoom1
 {
-    internal partial class KitchenForm : Form
+    public partial class KitchenForm : Form
     {
         public KitchenModel model { get; set; }
 
@@ -32,7 +32,7 @@ namespace KitchenRoom1
 
         private void KitchenForm_Paint(object sender, PaintEventArgs e)
         {
-            Image tileImage = Image.FromFile("D:\\UCAC\\X3\\ProgrammationConcurrente\\Projet\\projet\\ProjetProSys.net\\Developpement\\KitchenRoom1\\KitchenRoom1\\assets\\tiles\\kitchen_tile.png");
+            Image tileImage = Image.FromFile("D:\\UCAC\\X3\\Programmation Concurrente\\Projet\\projet\\ProjetProSys.net\\Developpement\\KitchenRoom1\\KitchenRoom1\\assets\\tiles\\kitchen_tile.png");
             for (int i = 0; i < model.kitchenRoom.map.GetUpperBound(0); i++)
             {
                 for (int j = 0; j < model.kitchenRoom.map.GetUpperBound(1); j++)
@@ -41,9 +41,9 @@ namespace KitchenRoom1
                 }
             }
 
-            Image decorator1 = Image.FromFile("D:\\UCAC\\X3\\ProgrammationConcurrente\\Projet\\projet\\ProjetProSys.net\\Developpement\\KitchenRoom1\\KitchenRoom1\\assets\\decorator\\decorator-1.png");
-            Image decorator2 = Image.FromFile("D:\\UCAC\\X3\\ProgrammationConcurrente\\Projet\\projet\\ProjetProSys.net\\Developpement\\KitchenRoom1\\KitchenRoom1\\assets\\decorator\\decorator-2.png");
-            Image decorator3 = Image.FromFile("D:\\UCAC\\X3\\ProgrammationConcurrente\\Projet\\projet\\ProjetProSys.net\\Developpement\\KitchenRoom1\\KitchenRoom1\\assets\\decorator\\decorator-3.png");
+            Image decorator1 = Image.FromFile("D:\\UCAC\\X3\\Programmation Concurrente\\Projet\\projet\\ProjetProSys.net\\Developpement\\KitchenRoom1\\KitchenRoom1\\assets\\decorator\\decorator-1.png");
+            Image decorator2 = Image.FromFile("D:\\UCAC\\X3\\Programmation Concurrente\\Projet\\projet\\ProjetProSys.net\\Developpement\\KitchenRoom1\\KitchenRoom1\\assets\\decorator\\decorator-2.png");
+            Image decorator3 = Image.FromFile("D:\\UCAC\\X3\\Programmation Concurrente\\Projet\\projet\\ProjetProSys.net\\Developpement\\KitchenRoom1\\KitchenRoom1\\assets\\decorator\\decorator-3.png");
 
             e.Graphics.DrawImage(decorator1, 1 * KitchenView.SQUARE_SIZE, (int)(0.25 * KitchenView.SQUARE_SIZE));
             e.Graphics.DrawImage(decorator2, 1 * KitchenView.SQUARE_SIZE, (int)(2.9 * KitchenView.SQUARE_SIZE));

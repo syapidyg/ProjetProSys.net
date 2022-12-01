@@ -4,8 +4,8 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FE8EE009-248F-4725-B975-19F98765ABFA}</ProjectGuid>
-    <OutputType>Exe</OutputType>
+    <ProjectGuid>{D1CF0DD4-5A78-4BD5-B90D-ECE6219A6509}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
     <RootNamespace>KitchenRoom1</RootNamespace>
     <AssemblyName>KitchenRoom1</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
@@ -32,9 +32,6 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-  </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -71,6 +68,9 @@
     <Compile Include="model\RecipeTask.cs" />
     <Compile Include="model\StaticKitchenElement.cs" />
     <Compile Include="model\Washer.cs" />
+    <Compile Include="obj\Debug\.NETFramework,Version=v4.8.AssemblyAttributes.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="view\ControlForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,8 +83,6 @@
     <Compile Include="view\KitchenForm.Designer.cs">
       <DependentUpon>KitchenForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="view\KitchenView.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -101,6 +99,7 @@
     <EmbeddedResource Include="view\KitchenForm.resx">
       <DependentUpon>KitchenForm.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include=".gitignore" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -114,6 +113,39 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="assets\background\Controlpanel.jpg" />
+    <Content Include="assets\background\panel1jpg.jpg" />
+    <Content Include="assets\background\panel2.jpg" />
+    <Content Include="assets\background\panel3.jpg" />
+    <Content Include="assets\background\panel4.jpg" />
+    <Content Include="assets\decorator\decorator-1.png" />
+    <Content Include="assets\decorator\decorator-2.png" />
+    <Content Include="assets\decorator\decorator-3.png" />
+    <Content Include="assets\decorator\decorator-4.png" />
+    <Content Include="assets\decorator\decorator-5.png" />
+    <Content Include="assets\decorator\decorator-6.png" />
+    <Content Include="assets\employees\chef\ready.png" />
+    <Content Include="assets\employees\chef\waiting.png" />
+    <Content Include="assets\employees\kitchen-clerk\moving-down.png" />
+    <Content Include="assets\employees\kitchen-clerk\moving-left.png" />
+    <Content Include="assets\employees\kitchen-clerk\moving-right.png" />
+    <Content Include="assets\employees\kitchen-clerk\moving-up.png" />
+    <Content Include="assets\employees\kitchen_clerk.png" />
+    <Content Include="assets\employees\part-chef\moving-down.png" />
+    <Content Include="assets\employees\part-chef\moving-left.png" />
+    <Content Include="assets\employees\part-chef\moving-right.png" />
+    <Content Include="assets\employees\part-chef\moving-up.png" />
+    <Content Include="assets\employees\part-chef\working.png" />
+    <Content Include="assets\employees\part_chef.png" />
+    <Content Include="assets\employees\washer\moving-left.png" />
+    <Content Include="assets\employees\washer\moving-right.png" />
+    <Content Include="assets\kitchen-material\cooking_fire.png" />
+    <Content Include="assets\kitchen-material\oven.png" />
+    <Content Include="assets\tiles\kitchen_tile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

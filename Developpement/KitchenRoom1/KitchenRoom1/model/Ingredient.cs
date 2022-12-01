@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KitchenRoom1.model
 {
-    internal class Ingredient : Entity
+    public class Ingredient : Entity
     {
         public String name { get; set; }
 

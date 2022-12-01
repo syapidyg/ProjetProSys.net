@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KitchenRoom1.model
 {
-    internal class KitchenEmployeeFactory
+    public class KitchenEmployeeFactory
     {
         private static Chef CHEF = new Chef();
         private static PartChef PART_CHEF = new PartChef();

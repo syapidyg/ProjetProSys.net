@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace KitchenRoom1.view
 {
-    internal partial class ControlForm : Form
+    public partial class ControlForm : Form
     {
         public KitchenForm kitchenForm { get; set; }
         public ControlForm(KitchenForm kitchenForm)

@@ -11,7 +11,7 @@ using System.Windows.Forms;
 
 namespace KitchenRoom1.view
 {
-    internal class KitchenView : IObserver
+    public class KitchenView : IObserver
     {
         private static int FPS = 25;
         private static int FRAME_RATE = 1000 / FPS;

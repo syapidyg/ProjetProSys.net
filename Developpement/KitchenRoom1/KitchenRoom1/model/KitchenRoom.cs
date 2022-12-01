@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace KitchenRoom1.model
 {
-    internal class KitchenRoom
+    public class KitchenRoom
     {
         public int cookingFireNumber = 5;
         public int ovenNumber = 1;
