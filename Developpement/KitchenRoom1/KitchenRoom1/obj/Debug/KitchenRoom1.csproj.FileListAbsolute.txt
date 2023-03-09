@@ -10,3 +10,9 @@ D:\UCAC\X3\Programmation Concurrente\Projet\projet\ProjetProSys.net\Developpemen
 D:\UCAC\X3\Programmation Concurrente\Projet\projet\ProjetProSys.net\Developpement\KitchenRoom1\KitchenRoom1\obj\Debug\KitchenRoom1.KitchenForm.resources
 D:\UCAC\X3\Programmation Concurrente\Projet\projet\ProjetProSys.net\Developpement\KitchenRoom1\KitchenRoom1\obj\Debug\KitchenRoom1.exe
 D:\UCAC\X3\Programmation Concurrente\Projet\projet\ProjetProSys.net\Developpement\KitchenRoom1\KitchenRoom1\obj\Debug\KitchenRoom1.pdb
+G:\X3\PROJET PROGRAMMATION SYSTEME\ProjetProSys.net\Developpement\KitchenRoom1\KitchenRoom1\obj\Debug\KitchenRoom1.csprojAssemblyReference.cache
+G:\X3\PROJET PROGRAMMATION SYSTEME\ProjetProSys.net\Developpement\KitchenRoom1\KitchenRoom1\obj\Debug\KitchenRoom1.Properties.Resources.resources
+G:\X3\PROJET PROGRAMMATION SYSTEME\ProjetProSys.net\Developpement\KitchenRoom1\KitchenRoom1\obj\Debug\KitchenRoom1.view.ControlForm.resources
+G:\X3\PROJET PROGRAMMATION SYSTEME\ProjetProSys.net\Developpement\KitchenRoom1\KitchenRoom1\obj\Debug\KitchenRoom1.KitchenForm.resources
+G:\X3\PROJET PROGRAMMATION SYSTEME\ProjetProSys.net\Developpement\KitchenRoom1\KitchenRoom1\obj\Debug\KitchenRoom1.csproj.GenerateResource.cache
+G:\X3\PROJET PROGRAMMATION SYSTEME\ProjetProSys.net\Developpement\KitchenRoom1\KitchenRoom1\obj\Debug\KitchenRoom1.csproj.CoreCompileInputs.cache
